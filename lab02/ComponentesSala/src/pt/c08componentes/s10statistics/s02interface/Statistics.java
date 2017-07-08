@@ -48,4 +48,16 @@ public class Statistics implements IStatistics {
        
        return avg;
    }
+
+@Override
+public float getValue(int pos) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+@Override
+public int getSize() {
+	// TODO Auto-generated method stub
+	return 0;
+}
 }

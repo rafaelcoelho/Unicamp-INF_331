@@ -26,4 +26,10 @@ public interface IStatistics {
      * @return average of the values in the set
      */
     public float average();
+
+
+	float getValue(int pos);
+
+
+	int getSize();
 }
