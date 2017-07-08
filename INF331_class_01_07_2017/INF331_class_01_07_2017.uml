@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-D8K0F6CEeeoyfHjUbVSlw" name="INF331_class_01_07_2017">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-S83MF6CEeeoyfHjUbVSlw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_SkUywF6QEeeoyfHjUbVSlw" name="ComponentMercadoria">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_3tO3sF6TEeeoyfHjUbVSlw" name="Port1" type="_nO0-0F6DEeeoyfHjUbVSlw" aggregation="composite"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_nO0-0F6DEeeoyfHjUbVSlw" name="Mercadoria">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_G6KvMF6EEeeoyfHjUbVSlw" name="nome" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_b0Y_AF6HEeeoyfHjUbVSlw" name="qtdeDisponivel" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iQBlsF6HEeeoyfHjUbVSlw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iQQ2QF6HEeeoyfHjUbVSlw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mfsEEF6HEeeoyfHjUbVSlw" name="valorCompra" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_z4B-MF6HEeeoyfHjUbVSlw" name="valorVenda" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ts1mQF6SEeeoyfHjUbVSlw" name="bancodemercadorias" type="__1WgQF6REeeoyfHjUbVSlw" association="_ts0_MF6SEeeoyfHjUbVSlw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ts1mQV6SEeeoyfHjUbVSlw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ts1mQl6SEeeoyfHjUbVSlw" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lI5-sF6EEeeoyfHjUbVSlw" name="getMercadorias">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_e_KfoF6MEeeoyfHjUbVSlw" name="string" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_zxiKEF6GEeeoyfHjUbVSlw" name="comprarMercadorias" visibility="public"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_QvUIAF6HEeeoyfHjUbVSlw" name="venderMercadoria()"/>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__1WgQF6REeeoyfHjUbVSlw" name="BancoDeMercadorias"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ts0_MF6SEeeoyfHjUbVSlw" memberEnd="_ts1mQF6SEeeoyfHjUbVSlw _ts1mQ16SEeeoyfHjUbVSlw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ts0_MV6SEeeoyfHjUbVSlw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ts0_Ml6SEeeoyfHjUbVSlw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ts1mQ16SEeeoyfHjUbVSlw" name="mercadoria" type="_nO0-0F6DEeeoyfHjUbVSlw" association="_ts0_MF6SEeeoyfHjUbVSlw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_8H9WkF6TEeeoyfHjUbVSlw" client="_3tO3sF6TEeeoyfHjUbVSlw" supplier="_nO0-0F6DEeeoyfHjUbVSlw"/>
+</uml:Model>
