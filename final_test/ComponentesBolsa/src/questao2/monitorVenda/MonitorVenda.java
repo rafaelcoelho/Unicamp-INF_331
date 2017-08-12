@@ -1,42 +1,51 @@
 package questao2.monitorVenda;
 
+import java.util.ArrayList;
+
 import observer.IAcaoObserver;
 import observer.IAcaoSubject;
 
 public class MonitorVenda implements IMonitorVenda, IAcaoSubject, IAcaoObserver {
+	private String empresaMonitorada;
+	private double limiteValor;
+
+	private ArrayList<IAcaoObserver> observerList = new ArrayList<IAcaoObserver>();
+
+	public MonitorVenda() {
+		super();
+	}
+
+	public void attach(IAcaoObserver observer) {
+		observerList.add(observer);
+	}
+
+	private void notifyObservers(String nome, int valor) {
+		if(nome.equals(getEmpresaMonitorada()) && valor<getLimiteValor() ) {
+			for (IAcaoObserver o : observerList) {
+				o.updateAcao(nome, valor);
+			}
+		}
+	}
 
 	@Override
 	public void updateAcao(String empresaAcao, int valorAcao) {
-		
+		notifyObservers(empresaAcao, valorAcao);	
 	}
 
-	@Override
-	public void attach(IAcaoObserver comprador) {
-		
-	}
-
-	@Override
 	public String getEmpresaMonitorada() {
-		// TODO Auto-generated method stub
-		return null;
+		return empresaMonitorada;
 	}
 
-	@Override
 	public void setEmpresaMonitorada(String empresaMonitorada) {
-		// TODO Auto-generated method stub
-		
+		this.empresaMonitorada = empresaMonitorada;
 	}
 
-	@Override
 	public double getLimiteValor() {
-		// TODO Auto-generated method stub
-		return 0;
+		return limiteValor;
 	}
 
-	@Override
 	public void setLimiteValor(double limiteValor) {
-		// TODO Auto-generated method stub
-		
+		this.limiteValor = limiteValor;
 	}
 
 }
