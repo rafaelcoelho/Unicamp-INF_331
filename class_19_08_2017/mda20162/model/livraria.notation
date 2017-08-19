@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_f_Ef4IUMEeeV-MgUEKGKpA" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_lawsgIUMEeeV-MgUEKGKpA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_laxTkIUMEeeV-MgUEKGKpA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lax6oIUMEeeV-MgUEKGKpA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_pAs4cIUMEeeV-MgUEKGKpA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_pAs4coUMEeeV-MgUEKGKpA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_pAs4c4UMEeeV-MgUEKGKpA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_pAs4dIUMEeeV-MgUEKGKpA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_pAs4dYUMEeeV-MgUEKGKpA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_B5Bc4IUNEeeV-MgUEKGKpA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="livraria.uml#_B479UIUNEeeV-MgUEKGKpA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_B5Bc4YUNEeeV-MgUEKGKpA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_pAs4doUMEeeV-MgUEKGKpA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_pAs4d4UMEeeV-MgUEKGKpA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_pAs4eIUMEeeV-MgUEKGKpA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pAs4eYUMEeeV-MgUEKGKpA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_pAs4eoUMEeeV-MgUEKGKpA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_pAs4e4UMEeeV-MgUEKGKpA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_pAs4fIUMEeeV-MgUEKGKpA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_pAs4fYUMEeeV-MgUEKGKpA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pAs4foUMEeeV-MgUEKGKpA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_pAs4f4UMEeeV-MgUEKGKpA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_pAs4gIUMEeeV-MgUEKGKpA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_pAs4gYUMEeeV-MgUEKGKpA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_pAs4goUMEeeV-MgUEKGKpA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pAs4g4UMEeeV-MgUEKGKpA"/>
+        </children>
+        <element xmi:type="uml:Class" href="livraria.uml#_pAqcMIUMEeeV-MgUEKGKpA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pAs4cYUMEeeV-MgUEKGKpA" x="54" y="32"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_8ZNlRIUMEeeV-MgUEKGKpA" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8ZNlRYUMEeeV-MgUEKGKpA"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8ZNlR4UMEeeV-MgUEKGKpA" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="livraria.uml#_pAqcMIUMEeeV-MgUEKGKpA"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8ZNlRoUMEeeV-MgUEKGKpA" x="254" y="32"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lax6oYUMEeeV-MgUEKGKpA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lax6ooUMEeeV-MgUEKGKpA"/>
+    </children>
+    <element xmi:type="uml:Package" href="livraria.uml#_lau3UIUMEeeV-MgUEKGKpA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lawsgYUMEeeV-MgUEKGKpA" x="140" y="60" width="392" height="283"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_f_Ef4YUMEeeV-MgUEKGKpA" name="diagram_compatibility_version" stringValue="1.3.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_f_Ef4oUMEeeV-MgUEKGKpA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_f_Ef44UMEeeV-MgUEKGKpA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="livraria.uml#_f_BckIUMEeeV-MgUEKGKpA"/>
+  </styles>
+  <element xmi:type="uml:Model" href="livraria.uml#_f_BckIUMEeeV-MgUEKGKpA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_8ZNlSIUMEeeV-MgUEKGKpA" type="StereotypeCommentLink" source="_pAs4cIUMEeeV-MgUEKGKpA" target="_8ZNlRIUMEeeV-MgUEKGKpA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_8ZNlSYUMEeeV-MgUEKGKpA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8ZNlTYUMEeeV-MgUEKGKpA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="livraria.uml#_pAqcMIUMEeeV-MgUEKGKpA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8ZNlSoUMEeeV-MgUEKGKpA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8ZNlS4UMEeeV-MgUEKGKpA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8ZNlTIUMEeeV-MgUEKGKpA"/>
+  </edges>
+</notation:Diagram>
