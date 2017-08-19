@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_mG_aAIUEEeeV-MgUEKGKpA" name="biblioteca">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_mVMOEIUEEeeV-MgUEKGKpA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_K_qx8IUFEeeV-MgUEKGKpA" name="Biblioteca">
+    <packagedElement xmi:type="uml:Class" xmi:id="_EFNhQIUFEeeV-MgUEKGKpA" name="Livro">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Ddw_YIUIEeeV-MgUEKGKpA" name="test"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

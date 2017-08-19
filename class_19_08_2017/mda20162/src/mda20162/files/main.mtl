@@ -1,0 +1,11 @@
+[comment encoding = UTF-8 /]
+[module main('http://www.eclipse.org/uml2/5.0.0/UML')/]
+[import mda20162::files::genClassJavaFile/]
+
+
+[template public mainClass(aClass : Class)]
+	
+	[comment @main /]
+	[aClass.genClassJavaFile()/]
+	
+[/template]
